@@ -1,8 +1,6 @@
 .DS_Store
 .idea
 *.vcd
-*.fst
-*.fst.hier
 runs
 tt_submission
 src/user_config.json
@@ -11,3 +9,7 @@ test/sim_build
 test/__pycache__/
 test/results.xml
 test/gate_level_netlist.v
+
+# local OpenLane runs (scripts/run_pd.sh)
+build/
+openlane.log
